@@ -1,0 +1,117 @@
+
+body {
+    font-family: Arial, sans-serif;
+}
+.navbar-brand {
+    font-weight: bold;
+}
+.section-heading {
+    margin-bottom: 30px;
+}
+
+.contact img {
+    border-radius: 50%;
+    width: 150px;
+    height: 150px;
+    object-fit: cover;
+}
+
+.domino img {
+    height: 600px;
+}
+
+.gambar-hobbies img {
+    width: 400px;
+}
+
+.gambar-hobbies p {
+    padding: 20px;
+}
+
+.gambar-project img {
+    height: 450px;
+}
+
+.container {
+    max-width: 900px;
+    margin: 0 auto;
+}
+
+.section-heading {
+    font-size: 2rem;
+    text-transform: uppercase;
+    margin-bottom: 2rem;
+    color: #333;
+}
+
+.project {
+    max-width: 250px;
+    margin: 0 auto;
+    display: block;
+}
+
+.row {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+p {
+    font-size: 1rem;
+    color: #555;
+    line-height: 1.5;
+    margin-bottom: 1.5rem;
+}
+
+.text-center {
+    text-align: center;
+}
+
+.section-heading {
+    font-size: 2rem;
+    text-transform: uppercase;
+    color: #333;
+    margin-bottom: 1.5rem;
+}
+
+.contact-card {
+    background-color: #fff;
+    border-radius: 10px;
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
+    max-width: 600px;
+    height: 500px;
+}
+
+.contact-img {
+    width: 100px;
+    height: 100px;
+    object-fit: cover;
+    border: 5px solid #fff;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.2);
+}
+
+.contact-info p {
+    font-size: 1rem;
+    color: #555;
+    margin: 0.5rem 0;
+    line-height: 1.5;
+}
+
+.contact-info strong {
+    color: #333;
+}
+
+
+.footer p {
+    padding: 10px;
+}
+
+#project-section {
+    margin-top: 100px;
+}
+
+.textshadow p {
+    font-size: 40px;
+    color: #fff;
+}
+

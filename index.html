@@ -1,0 +1,82 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>ALexander Charity's Website</title>
+
+    <style>
+        *{
+            padding: 0;
+            margin: 0;
+            font-family: fantasy;
+        }
+
+        .vidbg{
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            text-align: center;
+            /* background-color: rgba(0,0,0,0.385); */
+            background: linear-gradient(to right, rgba(0, 0, 0, 0.278), rgba(255, 45, 45, 0.229));
+            color: #fff;
+            position: relative;
+            min-height: 100vh;
+            font-size: 3em;
+            overflow: hidden;
+        }
+
+        .videobg{
+            position: absolute;
+            bottom: 0;
+            left: 0;
+            min-height: 100%;
+            min-width: 100%;
+            z-index: -1;
+        }
+
+        .content h1 {
+            padding: 10px 0px;
+            letter-spacing: 3px;
+            line-height: 90px;
+            font-weight: 100;
+        }
+
+        .img-hover {
+            width: 320px;
+            height: 320px;
+            background-image: url('asset/img/startbuttonfinal.png');
+            background-size: cover;
+            background-position: center;
+            transition: background-image 0.3s ease;
+        }
+
+        .img-hover:hover {
+            width: 320px;
+            height: 320px;
+            background-image: url('asset/img/startbuttonfinalijo.png');
+        }
+    </style>
+</head>
+<body>
+    <div class="vidbg">
+        <!-- <h1>press this button</h1> -->
+        <video class="videobg" src="asset/img/racing.mp4" autoplay muted loop></video>
+        <div class="content" >
+            <h1><i>Press this button<br> <span>to continue</span></i></h1>
+            <a href="index2.html"><img class="img-hover" src="asset/img/transparan.png" alt=""></a>
+        </div>
+    </div>
+
+   
+
+    <!-- <script>
+        //pindah ke halaman lain selama 5 detik
+        setTimeout(function(){
+            window.location.href = "index2.html";//akan pindah otomatis ke index 2.html
+        }, 5000);//satuannya ms. 5000ms = 5 detik
+    </script>
+     -->
+
+</body>
+</html>
